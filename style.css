@@ -397,6 +397,7 @@ header .info-text .scroll::before{
 
     header .rewriting .auto-type {
         font-size: 1.6rem;
+        margin-top: 1%;
     }
 
     header .info-text h3{
@@ -411,9 +412,6 @@ header .info-text .scroll::before{
     #about .card img{
         max-width: 150px;
         max-height: 150px;
-    }
-    .rewriting {
-        margin-top: 1%;
     }
 }
 
