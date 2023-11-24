@@ -90,7 +90,7 @@ header .info-text .scroll::before{
 }
 
 .rewriting {
-    position: relative;
+    position: absolute;
     font-size: 30px;
     top: 56%;
 }
@@ -411,6 +411,9 @@ header .info-text .scroll::before{
     #about .card img{
         max-width: 150px;
         max-height: 150px;
+    }
+    .rewriting {
+        margin-top: 1rem;
     }
 }
 
