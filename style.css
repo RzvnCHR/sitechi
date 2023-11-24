@@ -90,7 +90,7 @@ header .info-text .scroll::before{
 }
 
 .rewriting {
-    position: absolute;
+    position: relative;
     font-size: 30px;
     top: 56%;
 }
