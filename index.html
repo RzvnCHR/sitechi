@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio #2 | AsmrProg</title>
+</head>
+
+<body>
+
+    <script>
+        const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+      entry.target.classList.add('animate');
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.75
+});
+
+      </script>
+<div class="animation-fix">
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Răzvan Chiriac</h1>
+            <div class="rewriting">
+                <strong><span class="auto-type"></span></strong>
+            </div>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+<hr>
+    <section id="about">
+        <div class="header">
+            <h1 class="h1-about">Despre mine</h1>
+        </div>
+
+        <div class="card">
+            <img src="assets/logo.png">
+            <div class="info">
+                <p>
+                    Mereu am avut o plăcere pentru creația în mediul digital. De la jocuri PC și animații în Blender până la editări video și imagine in Adobe AE și PS. În prezent pasiunile mele sunt dezvoltarea personală și educația financiară. Sunt un tânăr căruia nu-i place să piardă vremea, tot ceea ce fac trebuie să-mi fie benefic. Doresc să-mi dezvolt o carieră și să mă valorific pe mine în societate prin serviciile pe care le pot presta.<br>
+Sunt Răzvan, am 17 ani și sunt gata să-ți fiu de folos.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+            <h1 class="h1-features">Servicii</h1>
+        </div>
+        <div class="feature-cards">
+            <div class="card1">
+                <div class="info">
+                    <i class='bx bx-pencil'></i>
+                    <h1>Branding Design</h1>
+                    <p>
+                        Prin intermediul programelor Adobe Photoshop și Ilustrator pot realiza logo-uri și bannere profesionale, care prin creativitatea depusă se vor evidenția pe piață și vă vor umbri concurența.
+                    </p>
+                </div> 
+            </div>
+            <div class="card2">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+
+                    <h1>Web Design</h1>
+                    <p>
+                        Am investit timp în învățarea conceptelor UX, UI și codare HTML/CSS. Acum pot transforma ideile oricărei afaceri în site-uri profesionale, oferind afacerilor o prezență online eficientă și atractivă. Web design-ul s-a transformat într-o pasiune care mă ajută să construiesc interfața digitală a oricărui fel de afacere.
+                    </p>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="info">
+                    <i class='bx bx-user-plus'></i>
+                    <h1>Social Media Management</h1>
+                    <p>
+                    Activitatea unei afaceri pe rețelele de socializare este de-asemenea importantă pentru construirea brand-ului, interacțiunea cu clienții serviciilor afacerii, publicitate, creșterea traficului, și monitorizarea concurenței. Probabil concurența v-a luat-o înainte, dar asta este în zadar dacă veți colabora cu mine.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+    <section id="contact">
+        <div class="header">
+            <h1 class="h1-contact">Contact</h1>
+        </div>
+        <div class="card4">
+        <div class="info">
+            <i class='bx bx-phone-call' style='color:#ffffff' ></i>
+            <p>
+                Putem discuta proiectele dvs prin "Hire Me", sunt pregătit să vă ajut să atingeți obiectivele afacerii dvs.
+                Contactați-mă pentru întrebări sau solicitări. 
+                <br>
+                contact@chiriacrazvan.info
+                <br>
+                0775302543
+            </p>
+        </div>
+        </div>
+        <a class="hire-me" href="#">Hire Me</a>
+    </section>
+
+<hr>
+    <footer id="footer">
+        <div class="footer">    
+            <p>
+                &copy; Răzvan Chiriac - Freelancer <br> All rights reserved.
+            </p>
+        </div>
+    </footer>
+</div>
+<!------------SCRIPT-URI----------->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+
+    
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+      strings: ["^500", "Branding Design^1000 ", "Web Design^1000",  "Social Media Management^1000"],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    })
+      </script>
+
+</body>
+
+</html>
