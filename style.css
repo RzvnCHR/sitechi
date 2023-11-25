@@ -413,7 +413,7 @@ header .info-text .scroll::before{
         max-height: 150px;
     }
     #about .card .info p {
-        text-align:center;
+        text-align: center;
     }
 }
 
