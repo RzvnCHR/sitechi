@@ -336,38 +336,38 @@ header .info-text .scroll::before{
 */
 .card.animate {
   animation-name: slide-top;
-  animation-duration: 0.8s;
+  animation-duration: 0.5s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .card1.animate {
   animation-name: slide-left;
-  animation-duration: 0.8s;
+  animation-duration: 0.5s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .card2.animate {
   animation-name: slide-top;
-  animation-duration: 0.8s;
+  animation-duration: 0.5s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .card3.animate {
   animation-name: slide-right;
-  animation-duration: 0.8s;
+  animation-duration: 0.5s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .card4.animate {
     animation-name: slide-top-nonglitch;
-    animation-duration: 0.8s;
+    animation-duration: 0.5s;
     animation-delay: 0s;
     animation-fill-mode: forwards;
 }
 
 .hire-me.animate {
     animation-name: slide-right;
-    animation-duration: 0.8s;
+    animation-duration: 0.5s;
     animation-delay: 0.3s;
     animation-fill-mode: forwards;
 }
