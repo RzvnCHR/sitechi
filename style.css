@@ -92,7 +92,7 @@ header .info-text .scroll::before{
 .rewriting {
     position: relative;
     font-size: 30px;
-    top: 5;
+    top: 1rem;
 }
 
 .info-text h1.animate {
