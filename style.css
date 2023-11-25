@@ -92,6 +92,7 @@ header .info-text .scroll::before{
 .rewriting {
     position: absolute;
     font-size: 30px;
+    top: 0;
 }
 
 .info-text h1.animate {
@@ -431,9 +432,6 @@ header .info-text .scroll::before{
 @media screen and (max-width: 340px) {
     header .rewriting .auto-type {
         font-size: 1.3rem;
-    }
-    .auto-type {
-        margin: 1rem;
     }
 }
 
