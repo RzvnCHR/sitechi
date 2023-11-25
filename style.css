@@ -97,8 +97,8 @@ header .info-text .scroll::before{
 
 .info-text h1.animate {
   animation-name: slide-right;
-  animation-duration: 0.5s;
-  animation-delay: 0.1s;
+  animation-duration: 0.4s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 
@@ -143,20 +143,20 @@ header .info-text .scroll::before{
 
 .h1-about.animate {
     animation-name: slide-left;
-    animation-duration: 0.5s;
-    animation-delay: 0.5s;
+    animation-duration: 0.4s;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
 }
 .h1-features.animate {
     animation-name: slide-right;
-    animation-duration: 0.5s;
-    animation-delay: 0.5s;
+    animation-duration: 0.4s;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
 }
 .h1-contact.animate {
     animation-name: fade-in;
-    animation-duration: 0.5s;
-    animation-delay: 0.5s;
+    animation-duration: 0.4s;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
 }
 /******************************/
@@ -336,46 +336,46 @@ header .info-text .scroll::before{
 */
 .card.animate {
   animation-name: slide-top;
-  animation-duration: 1s;
-  animation-delay: 0.1s;
+  animation-duration: 0.8s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .card1.animate {
   animation-name: slide-left;
-  animation-duration: 1s;
-  animation-delay: 0.1s;
+  animation-duration: 0.8s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .card2.animate {
   animation-name: slide-top;
-  animation-duration: 1s;
-  animation-delay: 0.1s;
+  animation-duration: 0.8s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .card3.animate {
   animation-name: slide-right;
-  animation-duration: 1s;
-  animation-delay: 0.1s;
+  animation-duration: 0.8s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 .card4.animate {
     animation-name: slide-top-nonglitch;
-    animation-duration: 1s;
-    animation-delay: 0.1s;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
 }
 
 .hire-me.animate {
     animation-name: slide-right;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
+    animation-duration: 0.8s;
+    animation-delay: 0.3s;
     animation-fill-mode: forwards;
 }
 
 .footer.animate {
     animation-name: slide-top;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: 0.8s;
     animation-fill-mode: forwards;
 }
 
